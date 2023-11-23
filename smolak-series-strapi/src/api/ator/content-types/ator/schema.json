@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ators",
+  "info": {
+    "singularName": "ator",
+    "pluralName": "ators",
+    "displayName": "ator",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "foto_ator": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
